@@ -1,0 +1,151 @@
+{
+  "recommended": "Lasso Regression",
+  "model_names": [
+    "Linear Regression",
+    "Ridge Regression",
+    "Lasso Regression",
+    "Random Forest"
+  ],
+  "features": [
+    "Education_Tier",
+    "Month",
+    "Underemployment_Rate",
+    "Lag1_Rate",
+    "Lag2_Rate",
+    "Lag3_Rate"
+  ],
+  "n_rows": 192,
+  "n_tiers": 6,
+  "data_start": "Apr 2023",
+  "data_end": "Nov 2025",
+  "train_period": "Apr 2023 to Apr 2025",
+  "test_period": "May 2025 to Nov 2025",
+  "n_train": 150,
+  "n_test": 42,
+  "n_train_months": 25,
+  "n_test_months": 7,
+  "n_validation_months": 18,
+  "n_splits": 3,
+  "latest_label": "December 2025",
+  "forecast_label": "January 2026",
+  "latest_inputs": {
+    "College": {
+      "Month": "December",
+      "Underemployment_Rate": 4.851949885122504,
+      "Lag1_Rate": 6.359397234528558,
+      "Lag2_Rate": 7.685527904579202,
+      "Lag3_Rate": 7.409345620250236
+    },
+    "Elementary": {
+      "Month": "December",
+      "Underemployment_Rate": 11.554227251023397,
+      "Lag1_Rate": 16.316998170177573,
+      "Lag2_Rate": 16.276620044990768,
+      "Lag3_Rate": 13.946577069513982
+    },
+    "Junior High": {
+      "Month": "December",
+      "Underemployment_Rate": 8.711638892939416,
+      "Lag1_Rate": 10.398831337146373,
+      "Lag2_Rate": 12.974856656501377,
+      "Lag3_Rate": 12.56996523769582
+    },
+    "No Grade Completed": {
+      "Month": "December",
+      "Underemployment_Rate": 11.31717387681967,
+      "Lag1_Rate": 19.76917087383518,
+      "Lag2_Rate": 19.187679591902626,
+      "Lag3_Rate": 12.93651576884578
+    },
+    "Post-Secondary": {
+      "Month": "December",
+      "Underemployment_Rate": 6.341204264348511,
+      "Lag1_Rate": 10.037434581459303,
+      "Lag2_Rate": 11.95225442401686,
+      "Lag3_Rate": 11.81349669681207
+    },
+    "Senior High": {
+      "Month": "December",
+      "Underemployment_Rate": 7.885718138749471,
+      "Lag1_Rate": 9.754251921257902,
+      "Lag2_Rate": 11.5480623191439,
+      "Lag3_Rate": 10.247058748887053
+    }
+  },
+  "tier_stats": {
+    "College": {
+      "mean": 8.11574793805001,
+      "std": 1.2414715988731846,
+      "min": 4.851949885122504,
+      "max": 10.877109416243613,
+      "avg_monthly_change": 1.526790056785583,
+      "noisy": false
+    },
+    "Elementary": {
+      "mean": 15.518482541230188,
+      "std": 2.1854993838673287,
+      "min": 11.554227251023397,
+      "max": 20.13099507965378,
+      "avg_monthly_change": 2.752661246980301,
+      "noisy": false
+    },
+    "Junior High": {
+      "mean": 12.966141229340364,
+      "std": 1.6840612868479248,
+      "min": 8.711638892939416,
+      "max": 16.996915115359098,
+      "avg_monthly_change": 1.8778316637862134,
+      "noisy": false
+    },
+    "No Grade Completed": {
+      "mean": 16.536854743323474,
+      "std": 4.188016880297511,
+      "min": 7.92533482573623,
+      "max": 23.874754934965043,
+      "avg_monthly_change": 4.267387934400747,
+      "noisy": true
+    },
+    "Post-Secondary": {
+      "mean": 13.233845149877055,
+      "std": 2.217170064910066,
+      "min": 6.341204264348511,
+      "max": 16.656586406105987,
+      "avg_monthly_change": 2.219728450951985,
+      "noisy": false
+    },
+    "Senior High": {
+      "mean": 11.756584880937222,
+      "std": 2.0091763926536417,
+      "min": 7.365380922033276,
+      "max": 15.877722553665684,
+      "avg_monthly_change": 2.4789281544511974,
+      "noisy": false
+    }
+  },
+  "model_errors": {
+    "Linear Regression": {
+      "rolling_mae": 2.3132577663572573,
+      "test_mae": 1.6071636169503243
+    },
+    "Ridge Regression": {
+      "rolling_mae": 2.152438919806816,
+      "test_mae": 1.6933833682479664
+    },
+    "Lasso Regression": {
+      "rolling_mae": 2.0603719611105675,
+      "test_mae": 1.755578398245032
+    },
+    "Random Forest": {
+      "rolling_mae": 2.1105739676283246,
+      "test_mae": 2.106196326802085
+    },
+    "Persistence Baseline": {
+      "rolling_mae": 2.6006397271886,
+      "test_mae": 2.349471251212191
+    },
+    "Tier Average Baseline": {
+      "rolling_mae": 1.9088521621669219,
+      "test_mae": 2.1844734099437604
+    }
+  }
+}

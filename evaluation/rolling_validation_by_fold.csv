@@ -1,0 +1,19 @@
+Fold,Training Months,Validation Months,Model,MAE,RMSE,R²
+1,Apr 2023 to Oct 2023,Nov 2023 to Apr 2024,Linear Regression,2.3815,3.1197,0.223
+1,Apr 2023 to Oct 2023,Nov 2023 to Apr 2024,Ridge Regression,2.1782,2.7379,0.4015
+1,Apr 2023 to Oct 2023,Nov 2023 to Apr 2024,Lasso Regression,2.0446,2.6489,0.4398
+1,Apr 2023 to Oct 2023,Nov 2023 to Apr 2024,Random Forest,2.3578,3.0102,0.2765
+1,Apr 2023 to Oct 2023,Nov 2023 to Apr 2024,Persistence Baseline,3.1439,4.0045,-0.2803
+1,Apr 2023 to Oct 2023,Nov 2023 to Apr 2024,Tier Average Baseline,2.0198,2.5223,0.492
+2,Apr 2023 to Apr 2024,May 2024 to Oct 2024,Linear Regression,2.0201,2.6818,0.3605
+2,Apr 2023 to Apr 2024,May 2024 to Oct 2024,Ridge Regression,1.9849,2.7459,0.3296
+2,Apr 2023 to Apr 2024,May 2024 to Oct 2024,Lasso Regression,1.8784,2.6677,0.3672
+2,Apr 2023 to Apr 2024,May 2024 to Oct 2024,Random Forest,1.582,2.3915,0.4914
+2,Apr 2023 to Apr 2024,May 2024 to Oct 2024,Persistence Baseline,1.9181,3.3157,0.0224
+2,Apr 2023 to Apr 2024,May 2024 to Oct 2024,Tier Average Baseline,1.4207,2.3029,0.5284
+3,Apr 2023 to Oct 2024,Nov 2024 to Apr 2025,Linear Regression,2.5382,3.6543,0.1945
+3,Apr 2023 to Oct 2024,Nov 2024 to Apr 2025,Ridge Regression,2.2942,2.9882,0.4614
+3,Apr 2023 to Oct 2024,Nov 2024 to Apr 2025,Lasso Regression,2.2581,3.0881,0.4248
+3,Apr 2023 to Oct 2024,Nov 2024 to Apr 2025,Random Forest,2.3919,3.0782,0.4285
+3,Apr 2023 to Oct 2024,Nov 2024 to Apr 2025,Persistence Baseline,2.74,3.2665,0.3564
+3,Apr 2023 to Oct 2024,Nov 2024 to Apr 2025,Tier Average Baseline,2.2861,2.9635,0.4703

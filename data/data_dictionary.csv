@@ -1,0 +1,16 @@
+Column,Description,Role in the models
+Date,First day of the month the row describes,Not used (used to split by time)
+Year,Calendar year,Not used
+Month,Month name of the row,Predictor
+Underemployed,Number of underemployed workers in the education group (units as in the source tables),Not used
+Employed,Number of employed workers in the education group (units as in the source tables),Not used
+Education_Tier,Education level group (College; Elementary; Junior High; No Grade Completed; Post-Secondary; Senior High),Predictor
+Underemployment_Rate,Underemployed divided by Employed times 100 for that group and month (%),Predictor
+National_Employment_Rate,National employment rate for the month (%),Not used
+National_Unemployment_Rate,National unemployment rate for the month (%),Not used
+National_Underemployment_Rate,National underemployment rate for the month (%),Not used
+Lag1_Rate,The group's Underemployment_Rate 1 month earlier (%),Predictor
+Lag2_Rate,The group's Underemployment_Rate 2 months earlier (%),Predictor
+Lag3_Rate,The group's Underemployment_Rate 3 months earlier (%),Predictor
+Rolling3_Rate,Average of the previous three monthly rates (Lag1 to Lag3),Not used
+Target,The group's Underemployment_Rate in the NEXT month (%),Target (what is predicted)

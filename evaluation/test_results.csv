@@ -1,0 +1,7 @@
+Model,MAE,RMSE,R²
+Linear Regression,1.6072,2.1555,0.705
+Ridge Regression,1.6934,2.1996,0.6928
+Lasso Regression,1.7556,2.2349,0.6829
+Random Forest,2.1062,2.543,0.5894
+Tier Average Baseline,2.1845,2.6481,0.5547
+Persistence Baseline,2.3495,3.0134,0.4234

@@ -1,0 +1,7 @@
+Education Tier,MAE (Lasso Regression),MAE (Persistence Baseline),MAE (Tier Average Baseline)
+College,1.2377,1.3798,1.4545
+Elementary,1.5926,2.7986,1.951
+Junior High,1.5716,2.4072,1.9123
+No Grade Completed,2.4851,3.5549,3.1869
+Post-Secondary,1.8731,1.5896,2.531
+Senior High,1.7733,2.3666,2.0711
